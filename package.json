@@ -3,11 +3,12 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
-    "test": "ng test",
-    "lint": "ng lint",
-    "e2e": "ng e2e"
+    "dev:frontend": "cd frontend && ng serve",
+    "dev:backend": "cd backend && flask run",
+    "build:frontend": "cd frontend && ng build",
+    "test:frontend": "cd frontend && ng test",
+    "lint:frontend": "cd frontend && ng lint",
+    "e2e": "cd frontend && ng e2e"
   },
   "private": true,
   "dependencies": {
