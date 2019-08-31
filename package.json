@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "dev:frontend": "cd frontend && ng serve",
-    "dev:backend": "cd backend && flask run",
+    "dev:backend": "cd backend && python3 app.py",
     "build:frontend": "cd frontend && ng build",
     "test:frontend": "cd frontend && ng test",
     "lint:frontend": "cd frontend && ng lint",
