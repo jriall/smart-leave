@@ -1,6 +1,6 @@
 {
   "name": "smart-leave",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "scripts": {
     "ng": "ng",
     "dev:frontend": "cd frontend && ng serve",
@@ -8,6 +8,8 @@
     "build:frontend": "cd frontend && ng build",
     "test:frontend": "cd frontend && ng test",
     "lint:frontend": "cd frontend && ng lint",
+    "lint:sass": "sass-lint -c .sass-lint.yml 'frontend/**/*.scss' -v -q",
+    "lint:sass:fix": "sass-lint-auto-fix --config-sass-lint .sass-lint.yml 'frontend/**/*.scss'",
     "e2e": "cd frontend && ng e2e",
     "yapf": "yapf -vv -r -i ./backend/"
   },
@@ -30,9 +32,9 @@
     "@angular/cli": "~8.0.0-rc.4",
     "@angular/compiler-cli": "~8.0.0-rc.4",
     "@angular/language-service": "~8.0.0-rc.4",
-    "@types/node": "~8.9.4",
     "@types/jasmine": "~3.3.8",
     "@types/jasminewd2": "~2.0.3",
+    "@types/node": "~8.9.4",
     "codelyzer": "^5.0.0",
     "jasmine-core": "~3.4.0",
     "jasmine-spec-reporter": "~4.2.1",
@@ -42,6 +44,8 @@
     "karma-jasmine": "~2.0.1",
     "karma-jasmine-html-reporter": "^1.4.0",
     "protractor": "~5.4.0",
+    "sass-lint": "^1.13.1",
+    "sass-lint-auto-fix": "^0.17.0",
     "ts-node": "~7.0.0",
     "tslint": "~5.15.0",
     "typescript": "~3.4.3"
