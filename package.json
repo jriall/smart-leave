@@ -8,7 +8,8 @@
     "build:frontend": "cd frontend && ng build",
     "test:frontend": "cd frontend && ng test",
     "lint:frontend": "cd frontend && ng lint",
-    "e2e": "cd frontend && ng e2e"
+    "e2e": "cd frontend && ng e2e",
+    "yapf": "yapf -vv -r -i ./backend/"
   },
   "private": true,
   "dependencies": {
