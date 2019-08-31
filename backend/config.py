@@ -10,5 +10,5 @@ class Config:
     load_dotenv()
 
     cls.HOST = os.getenv('HOST', 'localhost')
-    cls.PORT = os.getenv('PORT', '3000')
+    cls.PORT = os.getenv('PORT', '5000')
     cls.DEBUG = os.getenv('DEBUG', True)
