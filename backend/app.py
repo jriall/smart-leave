@@ -3,11 +3,9 @@ from config import Config
 from flask_sqlalchemy import SQLAlchemy
 import os
 
-db = SQLAlchemy()
 app = Flask(__name__)
 app.config.from_object(Config)
-db.init_app(app)
-db.app = app
+db = SQLAlchemy(app)
 
 
 @app.route('/')

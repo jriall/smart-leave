@@ -48,4 +48,5 @@ Thumbs.db
 # Backend
 *venv
 /backend/__pycache__
+/backend/app.db
 *.env
