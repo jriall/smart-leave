@@ -1,6 +1,6 @@
 {
   "name": "smart-leave",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "scripts": {
     "ng": "ng",
     "dev:frontend": "cd frontend && ng serve",
@@ -23,6 +23,10 @@
     "@angular/platform-browser": "~8.0.0-rc.4",
     "@angular/platform-browser-dynamic": "~8.0.0-rc.4",
     "@angular/router": "~8.0.0-rc.4",
+    "@ngrx/effects": "^8.3.0",
+    "@ngrx/schematics": "^8.3.0",
+    "@ngrx/store": "^8.3.0",
+    "@ngrx/store-devtools": "^8.3.0",
     "rxjs": "~6.4.0",
     "tslib": "^1.9.0",
     "zone.js": "~0.9.1"
