@@ -1,10 +1,7 @@
 import {Component} from '@angular/core';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  selector: 'sl-app',
+  template: '<h1>Welcome to SmartLeave</h1>',
 })
-export class AppComponent {
-  title = 'frontend';
-}
+export class AppComponent {}
